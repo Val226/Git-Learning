@@ -105,7 +105,7 @@ img {
 figcaption {
   text-align: center;
   font-weight: bold;
-  font-color: (0, 58, 66);
+  display: inline-block;
 }
 footer {
   margin: 2rem 0 2rem 0;
@@ -128,7 +128,9 @@ footer {
 }
 .img-div {
   display: flex;
-  flex-wrap: wrap;
+  flex: wrap;
+  justify-content: space-around;
+
 }
 
 .tips-div {
@@ -141,6 +143,8 @@ footer {
   margin: 5rem auto;
   color: rgb(253, 197, 132);
   padding: 1rem 2rem;
+  background-color: rgb(0, 58, 66);
+  border-radius: 1rem;
 }
 .top-places-div h2 {
   text-align: center;
@@ -158,10 +162,13 @@ footer {
 
 @media only screen and (max-width: 1100px) {
   .tips-div {
+    justify-content: center;
+    font-stretch: condensed;
+    text-wrap: wrap;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px) {
   body {
     margin: 1rem;
   }
@@ -176,6 +183,7 @@ footer {
     width: 230px;
   }
   #banner-short {
+    width: 500px;
   }
 }
 /* ------------------------- */
