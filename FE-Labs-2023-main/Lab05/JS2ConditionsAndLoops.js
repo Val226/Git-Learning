@@ -179,11 +179,11 @@ Question 6: Debugging an infinite loop! \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
-   /*    
-   for (let i = 11; i < 10; i++) { 
+      //Start           //Stop    //Incrementor
+   for (let i = 0;    i < 100;    i++){ 
       console.log(i);   
    } 
-  */
+  
 
 
 
