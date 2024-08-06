@@ -153,7 +153,16 @@ Question 5: Loops! \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
+for (let i = 10; i > -10; i--) {
+   console.log(i);
+ }
+ let counter = 1;
 
+ do {
+   console.log(counter)
+   counter++
+ } while (counter <= 50);
+   
 
 /*-------------------------------------------------------*/
 
@@ -168,7 +177,7 @@ Question 6: Debugging an infinite loop! \n`);
  * ↓ YOUR CODE HERE ↓ */
 
    /*    
-   for (let i = 11; i > 10; i++) { 
+   for (let i = 11; i < 10; i++) { 
       console.log(i);   
    } 
   */
