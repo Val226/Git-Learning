@@ -72,10 +72,10 @@ Question 2: Is it time to wake up for work? \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
-let alarmSet = true;
-let weekDay = ("Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday");
+let alarmSet = false;
+let weekDay = true;
 
-if (alarmSet == true) {
+if (alarmSet && weekDay) {
    console.log("Sound Alarm! Time for work!")
 } else {
    console.log("I can sleep in!")
@@ -96,12 +96,14 @@ Question 3: Username & Password \n`);
  *	        - otherwise, print "Admin Access Denied"
  * 
  * ↓ YOUR CODE HERE ↓ */
-let username = "Tommy123";
-let password = "12345";
+let username = "Tommy123"
+let password = "12345"
 
-
-console.log(logIn)
-
+if ((username == "Tommy123" && password == "12345") || (username == "Timmy456" && password == "6789")) {
+   console.log("Admin Login Successful")
+} else {
+   console.log("Admin Access Denied")
+}
 
 /*-------------------------------------------------------*/
 
@@ -120,7 +122,15 @@ Question 4: Student Class \n`);
  *         Any other value should return "Error" to the console.
  * 
  * ↓ YOUR CODE HERE ↓ */
-studentClass = 
+let studentClass = studentGrade;
+
+switch (studentClass) {
+   case "0 - 6":
+      console.log("Elementary");
+      break;
+   case "7 - 8":
+      console.log("Middle")
+}
 
 
 /*-------------------------------------------------------*/
