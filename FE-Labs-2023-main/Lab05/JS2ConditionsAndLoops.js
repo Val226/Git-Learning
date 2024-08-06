@@ -159,6 +159,9 @@ for (let i = 10; i > -10; i--) {
  let counter = 1;
 
  do {
+   if (counter % 4 == 0) {
+      console.log(counter)
+   }
    console.log(counter)
    counter++
  } while (counter <= 50);
