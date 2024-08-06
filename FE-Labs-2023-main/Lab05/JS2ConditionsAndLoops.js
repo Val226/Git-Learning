@@ -45,8 +45,16 @@ Question 1: Driving the speed limit.. ? \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
+let speedLimit = 75;
+let mySpeed = 88;
 
-
+if (mySpeed > speedLimit) {
+   console.log("Slow Down! Mom is mad!")
+} else if (mySpeed == speedLimit) {
+   console.log("Everyone is happy!")
+} else {
+   console.log("Speed up! Dad!")
+}
 /*-------------------------------------------------------*/
 
 console.log(`--------------------------
@@ -64,7 +72,14 @@ Question 2: Is it time to wake up for work? \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
+let alarmSet = true;
+let weekDay = ("Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday");
 
+if (alarmSet == true) {
+   console.log("Sound Alarm! Time for work!")
+} else {
+   console.log("I can sleep in!")
+}
 
 /*-------------------------------------------------------*/
 
@@ -81,7 +96,11 @@ Question 3: Username & Password \n`);
  *	        - otherwise, print "Admin Access Denied"
  * 
  * ↓ YOUR CODE HERE ↓ */
+let username = "Tommy123";
+let password = "12345";
 
+
+console.log(logIn)
 
 
 /*-------------------------------------------------------*/
@@ -101,7 +120,7 @@ Question 4: Student Class \n`);
  *         Any other value should return "Error" to the console.
  * 
  * ↓ YOUR CODE HERE ↓ */
-
+studentClass = 
 
 
 /*-------------------------------------------------------*/
