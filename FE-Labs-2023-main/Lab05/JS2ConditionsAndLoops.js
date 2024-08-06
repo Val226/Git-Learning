@@ -122,17 +122,24 @@ Question 4: Student Class \n`);
  *         Any other value should return "Error" to the console.
  * 
  * ↓ YOUR CODE HERE ↓ */
-let studentClass = studentGrade;
+let studentClass
+let studentGrade = 5; 
 
-switch (studentClass) {
-   case "0 - 6":
-      console.log("Elementary");
-      break;
-   case "7 - 8":
-      console.log("Middle")
+if (studentGrade >= 0 || studentGrade <= 6) {
+   studentClass = "Elementary"
+} else if (studentGrade == 7 || studentGrade == 8) {
+   studentClass = "Middle"
+} else if (studentGrade = 9) {
+   studentClass = "Freshman"
+} else if (studentGrade = 10) {
+   studentClass = "Sophomore"
+} else if (studentGrade = 11) {
+   studentClass = "Junior"
+} else if (studentGrade = 12) {
+   studentClass = "Senior"
 }
 
-
+console.log(studentClass)
 /*-------------------------------------------------------*/
 
 console.log(`--------------------------
