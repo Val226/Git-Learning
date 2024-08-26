@@ -60,8 +60,8 @@ let alphabetArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
  * 
  * ↓ YOUR CODE HERE ↓ */
 
-
-
+let reversed = alphabetArray.toReversed();
+console.log(reversed, reversed);
 
 
 
