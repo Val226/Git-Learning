@@ -82,10 +82,24 @@ let array1 = [1, 5, 6, 9, 10, 14];
  * 
  * 
  * ↓ YOUR CODE HERE ↓ */
-
-
-
-
+// step 1
+console.log(array1);
+// step 2
+let targetElement = array1[2];
+console.log(targetElement);
+// step 3
+let lastElement = array1[5];
+console.log(lastElement);
+// step 4
+let array2 = array1.push(16, 3);
+console.log(array1);
+// step 5
+targetElement = array1[2];
+console.log(targetElement);
+//step 6
+let endingElement = array1[7];
+console.log(endingElement);
+// It did change from earlier, but I also had to change which element was the end
 
 
 // Question 4: Todo List
