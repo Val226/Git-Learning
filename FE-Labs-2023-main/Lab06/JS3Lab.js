@@ -155,9 +155,6 @@ function isEven(number) {
               return false;
        }
 }
-
-
-
 /* ↑ YOUR CODE HERE ↑ */
 
 //! Sample test cases for the above isEven function (uncomment to test)
@@ -183,9 +180,15 @@ Question 6: addingMachine \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
+function addingMachine(array) {
+       let sum = 0;
+       for (let i = 0; 1 < array.length; i++) {
+              sum += array[1];
+       }
+       return sum;
+}
 
-
-
+// Not sure why but it won't print anything and gets stuck on this question. I think I've got the right solution, but I'm not positive
 
 /* ↑ YOUR CODE HERE ↑ */
 
@@ -216,7 +219,23 @@ Question 7: reverse \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
-
+function reverse(x) {
+       if (typeof x === 'boolean') {
+              return !x;
+       }
+       else if (typeof x === 'number') {
+              return x.split('').reverse().join('');
+       }
+       else if (typeof x === 'string') {
+              return x.split('').reverse().join('');
+       }
+       else if (Array.isArray(x)) {
+              return x.reverse();
+       }
+       else {
+              return false;
+       }
+}
 
 
 
@@ -249,14 +268,19 @@ Question 8: removeElements \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
-
+function removeElements(array) {
+       while (array.length > 0) {
+              array.pop();
+       }
+       return array;
+}
 
 
 
 /* ↑ YOUR CODE HERE ↑ */
 
 // Sample test cases for the above removeElements function (uncomment to test)
-//console.log(removeElements([1, 2, 3, 4, 5])); //should return [] (an empty array)
+console.log(removeElements([1, 2, 3, 4, 5])); //should return [] (an empty array)
 
 
 
