@@ -116,11 +116,20 @@ Question 4: Todo List \n`);
  * 
  * 
  * ↓ YOUR CODE HERE ↓ */
-
-
-
-
-
+// step 1
+let myTodoList = [ ];
+//step 2
+let myTodoList1 = myTodoList.push('Do the laundry', 'Pet the kitty', 'Write the letter');
+console.log(myTodoList)
+// step 3
+let removedElement = myTodoList.splice(1, 1);
+console.log(removedElement);
+// step 4
+let yourTodoList = ['Water the plants', 'Feed the Humans'];
+console.log(yourTodoList);
+// step 5
+let ourTodoList = myTodoList.concat(yourTodoList);
+console.log(ourTodoList);
 
 
 // Question 5: isEven 
