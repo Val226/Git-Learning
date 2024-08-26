@@ -40,7 +40,8 @@ let alphabetString = 'abcdefghijklmnopqrstuvwxyz';
  * 
  * ↓ YOUR CODE HERE ↓ */
 
-
+let alphabetStrings = alphabetString.split();
+console.log(alphabetStrings)
 
 
 
