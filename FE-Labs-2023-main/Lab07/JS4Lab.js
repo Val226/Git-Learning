@@ -45,7 +45,7 @@ Question 1: Declaring Let and Const variables`)
  * ↓ YOUR CODE HERE ↓ */
 
 const food = 'Sandwiches';
-const drink = 'Iced Tea';
+let drink = 'Iced Tea';
 let myName = "Val";
 let myFriendsName = "Connor";
 
@@ -82,8 +82,12 @@ Question 2a: Oh no`)
  *
  * ↓ YOUR CODE HERE ↓ */
 
+// let drink = "Soda";
+
+console.log(`My friend ${myFriendsName} & ${myName} are eating ${food} and drinking ${drink}`);
+
 //Question: Read the error message - in your own words - what does it mean?
-//Answer:
+//Answer: The error message is saying that the variable drink has already been defined. This means I cannot change the variable
 
 /*---------------------------------- Arrow Functions -------------------------------------*/
 console.log(`-------------------------- 
@@ -102,8 +106,17 @@ Question 3: Arrow Functions`)
  *         console.log(lunchTime('Pizza','Water'))
  * ↓ YOUR CODE HERE ↓ */
 
+const lunchTime = (foodChoice, drinkChoice) => {
+
+   return `My friend ${myFriendsName} & ${myName} are eating ${foodChoice} and drinking ${drinkChoice}`;
+}
+console.log(lunchTime('Pizza','Water'))
+
 //Question: What would your function look like if we were using the old way of creating a function?
-//Answer:
+//Answer: function lunchTime (foodChoice, drinkChoice) {
+// return `My friend ${myFriendsName} & ${myName} are eating ${foodChoice} and drinking ${drinkChoice}`;
+// }
+
 
 /*---------------------------------- Callbacks -------------------------------------*/
 console.log(`-------------------------- 
