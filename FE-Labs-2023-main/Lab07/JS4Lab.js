@@ -44,8 +44,8 @@ Question 1: Declaring Let and Const variables`)
  *
  * ↓ YOUR CODE HERE ↓ */
 
-const food = 'Sandwich';
-const drink = 'Beer';
+const food = 'Sandwiches';
+const drink = 'Iced Tea';
 let myName = "Val";
 let myFriendsName = "Connor";
 
@@ -66,9 +66,12 @@ Question 2: Template Literals`)
  *
  * ↓ YOUR CODE HERE ↓ */
 
+console.log(`My friend ${myFriendsName} & ${myName} are eating ${food} and drinking ${drink}`);
+
 //Question: How would the sentence you wrote look if you used string concatenation instead of template literals?
 //          console.log() your answer to check
 //Answer:
+console.log("My friend " + myFriendsName + " & " + myName + " are eating " + food + " and drinking " + drink);
 console.log(`-------------------------- 
 Question 2a: Oh no`)
 
