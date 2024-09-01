@@ -44,11 +44,12 @@ Question 1: Declaring Let and Const variables`)
  *
  * ↓ YOUR CODE HERE ↓ */
 
-const lunchOption1 = Soda, Sandwich;
-const lunchOption2 = Wine, Pasta
-let me = Val;
-let friend = Connor;
+const food = 'Sandwich';
+const drink = 'Beer';
+let myName = "Val";
+let myFriendsName = "Connor";
 
+console.log(food, drink, myName, myFriendsName);
 
 //Question: Name a reason why you would use const instead of let.
 //Answer: In this case, we have 2 options for lunch, based off what's in my kitchen, these are the only options.
