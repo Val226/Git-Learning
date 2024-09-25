@@ -163,10 +163,10 @@ console.log(`1d: Only wizards shall pass!`)
  ]
 
  function onlyWizards(arrayOfCharacters) {
-   return arrayOfCharacters.filter((movieCharacters) => isAWizard == true)
+   return arrayOfCharacters.filter(character => character.isAWizard);
  }
 
 //check out the console.table() method you can use on objects!
- console.table(onlyWizards(movieCharacters)) //expecting an array of characters whose key/value pair is = isAWizard: true
+ console.table(onlyWizards(movieCharacters)); //expecting an array of characters whose key/value pair is = isAWizard: true
 /*----------------------------------------------------*/
 console.log(`-----------Finished------------`)
