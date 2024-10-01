@@ -153,7 +153,7 @@ const myButton = document.getElementById('myButton').addEventListener('click', (
 
 //Question: What other event listeners are there?
 //             Try them out by replacing 'click' in your function above!
-//Answer:
+//Answer: Event listerners are an action, examples include when you hover your mouse over some element, or when a button on the keyboard is pushed.
 
 
 console.log(`-----------Finished------------`)
@@ -167,3 +167,9 @@ console.log(`-----------Finished------------`)
  *    and append a new <tr> containing those values to your tBody element.
  *    Look into event.preventDefault(). Buttons inside of forms have a default setting to refresh the page.
  */
+
+// Create an image that disappears when you hover over it, and reappears when you hover off
+
+const myImage = document.getElementById('myPic').addEventListener('mouseover', (), => {
+   document.body.style.myImage = ``
+})
