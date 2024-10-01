@@ -41,6 +41,7 @@ Part 1: Create a form with only JavaScript`)
            You should now have a label and a input on your website.
            Do the same steps, appending a label/input for Email, and a submit button to your form.
  * ↓ YOUR CODE HERE ↓ */
+
 let myForm = document.createElement('form')
 let myLabel = document.createElement('label')
 let myInput = document.createElement('input')
@@ -145,9 +146,15 @@ Part 4: Changing our background on click`)
  *
  * ↓ YOUR CODE HERE ↓ */
 
+const myButton = document.getElementById('myButton').addEventListener('click', () => {
+   document.body.style.backgroundColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`
+})
+
+
 //Question: What other event listeners are there?
 //             Try them out by replacing 'click' in your function above!
 //Answer:
+
 
 console.log(`-----------Finished------------`)
 
